@@ -16,7 +16,8 @@ import Graph from "./Graph/graph";
 
 
 
-class App extends Component {
+class App extends Component 
+{
 
     constructor() {
         super();
