@@ -11,7 +11,7 @@ import BinarySearch from "./binarySearchComponent/binarySearch";
 import RecursiveSort from "./recursiveSortComponents/recursiveSort";
 import Puzzle from "./15puzzleComponents/puzzle";
 
-import TuringMachine from "./Turing Machine/turingMachine";
+// import TuringMachine from "./Turing Machine/turingMachine";
 import Graph from "./Graph/graph";
 
 
@@ -37,7 +37,7 @@ class App extends Component
                     <Route path='/convexhull' component={ConvexHull}/>
                     <Route path='/binarysearch' component={BinarySearch}/>
                     <Route path='/recursivesort' component={RecursiveSort}/>
-                    <Route path='/turing' component={TuringMachine}/>
+                    {/* <Route path='/turing' component={TuringMachine}/> */}
                     <Route path='/15puzzle' component={Puzzle}/>
                     <Route path='/graph' component={Graph}/>
                     <Route path='/' component={Home}/>

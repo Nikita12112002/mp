@@ -4,13 +4,13 @@ class Greet extends Component {
     render() {
         return (
             <div className="greet">
-                <h1 className="display-3">
+                <h1 className="display-3" style={{fontFamily:"cursive"}}>
                     Algorithm Visualizer
                 </h1>
                 <hr className="dropdown-divider"/>
-                <h1 className="display-5">
-                    Visualize algorithms for a better understanding
-                </h1>
+                <h2 className="display-5">
+                    Visualize data structures algorithms
+                </h2>
             </div>
         );
     }
