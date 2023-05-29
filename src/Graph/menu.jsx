@@ -20,7 +20,7 @@ class Menu extends Component {
                 <SimpleSelect
                     pos={0}
                     label={'Task'}
-                    items={['Fibonacci','Binomial Coefficient',"Derangement","Bigmod","Stirling2"]}
+                    items={['Fibonacci','',"","",""]}
                     onValueChanged={this.props.setAlgo}
                 />
                 <SimpleSelect
